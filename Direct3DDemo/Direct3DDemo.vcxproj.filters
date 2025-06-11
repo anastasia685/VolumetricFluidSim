@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>3b52a8d1-7b34-4621-86e4-bde057701089</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>cd68d2e0-e5ee-4f3b-9c43-9d356d3fd7c1</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{b1e6ce92-66e6-4775-8167-972156d00d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Camera">
+      <UniqueIdentifier>{fd03b047-f1c5-421c-9c2c-204b495de6ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\RenderTexture">
+      <UniqueIdentifier>{26906434-a97b-46d3-9de0-eb5ce0807d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\TextureManager">
+      <UniqueIdentifier>{9c5c0cc7-e7a5-4084-ae58-4cae3358d250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{ff57cbca-91b5-4865-bbb0-c97384e8de77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders">
+      <UniqueIdentifier>{5b271219-5586-46f5-944c-967ff5639901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\FPCamera">
+      <UniqueIdentifier>{aa1b2fae-ed7e-4b33-adab-4abb897488e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{44cb0a9f-1b17-4442-8d14-7eb8f7a932cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{e2875cef-75b3-46bb-84e7-c0b7630f0b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Noise">
+      <UniqueIdentifier>{95122cba-fd6d-40c4-8446-8825ad7a5fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Noise\Perlin">
+      <UniqueIdentifier>{87887fa4-27e2-4f03-81d2-fbe70d6dacdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Noise\Simplex">
+      <UniqueIdentifier>{b0f6cf60-bf06-4cad-8dbd-72514374dfe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects\Compute">
+      <UniqueIdentifier>{ae127fc0-5b7c-40f2-97b2-0d0a80cb5d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Light">
+      <UniqueIdentifier>{85cfe7f8-980d-4705-ab37-0146088db97b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Common\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTexture.h">
+      <Filter>Common\RenderTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Common\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadData.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FPCamera.h">
+      <Filter>Common\FPCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="Perlin.h">
+      <Filter>Utils\Noise\Perlin</Filter>
+    </ClInclude>
+    <ClInclude Include="Simplex.h">
+      <Filter>Utils\Noise\Simplex</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexTypes.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumetricEffect.hpp">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEffect.hpp">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMesh.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMesh.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleMesh.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="GridMesh.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereMesh.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBufferTypes.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainEffect.hpp">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplacementEffect.hpp">
+      <Filter>Effects\Compute</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidSimEffect.hpp">
+      <Filter>Effects\Compute</Filter>
+    </ClInclude>
+    <ClInclude Include="OrthoMesh.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="SDFEffect.hpp">
+      <Filter>Effects\Compute</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Common\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessEffect.hpp">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendEffect.hpp">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GodRaysEffect.hpp">
+      <Filter>Effects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Common\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTexture.cpp">
+      <Filter>Common\RenderTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Common\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FPCamera.cpp">
+      <Filter>Common\FPCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="Perlin.cpp">
+      <Filter>Utils\Noise\Perlin</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Simplex.cpp">
+      <Filter>Utils\Noise\Simplex</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Common\Light</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="base_vs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="base_ps.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="test_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="volume_ps.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellation_hs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellation_ds.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellation_vs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="fluid_advect_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="terrain_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="fluid_divergence_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="fluid_jacobi_poisson_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="fluid_gradient_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="fluid_bounds_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="fluid_advect_staggered_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="fluid_advect_correction_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="fluid_curl_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="fluid_vorticity_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="terrain_ps.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="terrain_sdf_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="scene_sdf_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="fluid_diffuse_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="scene_sdf_gradient_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="tonemap_ps.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="worley_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="skybox_ps.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="composite_volume_ps.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="god_rays_ps.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="god_rays_vs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="perlin_cs.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
